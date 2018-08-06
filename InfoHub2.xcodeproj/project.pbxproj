@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2196CAB2116410500B7D220 /* ACTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2196CAA2116410500B7D220 /* ACTableViewCell.m */; };
+		C260EC5E211590C1004D88D5 /* CTviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C260EC5D211590C1004D88D5 /* CTviewcontroller.m */; };
+		C260EC622115918E004D88D5 /* Hviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C260EC612115918E004D88D5 /* Hviewcontroller.m */; };
+		C260EC66211634BD004D88D5 /* ACviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C260EC65211634BD004D88D5 /* ACviewcontroller.m */; };
+		E702ADB221103D5500C34D71 /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E702ADB121103D5500C34D71 /* MHViewController.m */; };
+		E702ADB5211040A800C34D71 /* BIviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E702ADB4211040A800C34D71 /* BIviewcontroller.m */; };
+		E707F867210EF3C3007109EF /* TextViewUI.m in Sources */ = {isa = PBXBuildFile; fileRef = E707F866210EF3C3007109EF /* TextViewUI.m */; };
 		E760584120FDACED0027B500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E760584020FDACED0027B500 /* AppDelegate.m */; };
 		E760584420FDACED0027B500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E760584320FDACED0027B500 /* ViewController.m */; };
 		E760584720FDACED0027B500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E760584520FDACED0027B500 /* Main.storyboard */; };
@@ -16,6 +23,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2196CA92116410500B7D220 /* ACTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACTableViewCell.h; sourceTree = "<group>"; };
+		C2196CAA2116410500B7D220 /* ACTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACTableViewCell.m; sourceTree = "<group>"; };
+		C260EC5C211590C1004D88D5 /* CTviewcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTviewcontroller.h; sourceTree = "<group>"; };
+		C260EC5D211590C1004D88D5 /* CTviewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTviewcontroller.m; sourceTree = "<group>"; };
+		C260EC602115918E004D88D5 /* Hviewcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hviewcontroller.h; sourceTree = "<group>"; };
+		C260EC612115918E004D88D5 /* Hviewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hviewcontroller.m; sourceTree = "<group>"; };
+		C260EC64211634BD004D88D5 /* ACviewcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACviewcontroller.h; sourceTree = "<group>"; };
+		C260EC65211634BD004D88D5 /* ACviewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACviewcontroller.m; sourceTree = "<group>"; };
+		E702ADB021103D5400C34D71 /* MHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHViewController.h; sourceTree = "<group>"; };
+		E702ADB121103D5500C34D71 /* MHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHViewController.m; sourceTree = "<group>"; };
+		E702ADB3211040A800C34D71 /* BIviewcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIviewcontroller.h; sourceTree = "<group>"; };
+		E702ADB4211040A800C34D71 /* BIviewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIviewcontroller.m; sourceTree = "<group>"; };
+		E707F865210EF3C3007109EF /* TextViewUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewUI.h; sourceTree = "<group>"; };
+		E707F866210EF3C3007109EF /* TextViewUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewUI.m; sourceTree = "<group>"; };
 		E760583C20FDACED0027B500 /* InfoHub2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoHub2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E760583F20FDACED0027B500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E760584020FDACED0027B500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +60,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C260EC5B2115903C004D88D5 /* Main VCs */ = {
+			isa = PBXGroup;
+			children = (
+				E760584220FDACED0027B500 /* ViewController.h */,
+				E760584320FDACED0027B500 /* ViewController.m */,
+				E702ADB3211040A800C34D71 /* BIviewcontroller.h */,
+				E702ADB4211040A800C34D71 /* BIviewcontroller.m */,
+			);
+			path = "Main VCs";
+			sourceTree = "<group>";
+		};
+		C260EC5F211590D9004D88D5 /* Calories Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				C260EC5C211590C1004D88D5 /* CTviewcontroller.h */,
+				C260EC5D211590C1004D88D5 /* CTviewcontroller.m */,
+			);
+			path = "Calories Tracker";
+			sourceTree = "<group>";
+		};
+		C260EC6321159196004D88D5 /* Home VC */ = {
+			isa = PBXGroup;
+			children = (
+				C260EC602115918E004D88D5 /* Hviewcontroller.h */,
+				C260EC612115918E004D88D5 /* Hviewcontroller.m */,
+			);
+			path = "Home VC";
+			sourceTree = "<group>";
+		};
+		C260EC67211634C2004D88D5 /* Add calories VC */ = {
+			isa = PBXGroup;
+			children = (
+				C2196CA92116410500B7D220 /* ACTableViewCell.h */,
+				C2196CAA2116410500B7D220 /* ACTableViewCell.m */,
+				C260EC64211634BD004D88D5 /* ACviewcontroller.h */,
+				C260EC65211634BD004D88D5 /* ACviewcontroller.m */,
+			);
+			path = "Add calories VC";
+			sourceTree = "<group>";
+		};
 		E760583320FDACED0027B500 = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +121,15 @@
 			children = (
 				E760583F20FDACED0027B500 /* AppDelegate.h */,
 				E760584020FDACED0027B500 /* AppDelegate.m */,
-				E760584220FDACED0027B500 /* ViewController.h */,
-				E760584320FDACED0027B500 /* ViewController.m */,
+				C260EC5F211590D9004D88D5 /* Calories Tracker */,
+				C260EC5B2115903C004D88D5 /* Main VCs */,
+				C260EC6321159196004D88D5 /* Home VC */,
+				E702ADB021103D5400C34D71 /* MHViewController.h */,
 				E760584520FDACED0027B500 /* Main.storyboard */,
+				C260EC67211634C2004D88D5 /* Add calories VC */,
+				E702ADB121103D5500C34D71 /* MHViewController.m */,
+				E707F865210EF3C3007109EF /* TextViewUI.h */,
+				E707F866210EF3C3007109EF /* TextViewUI.m */,
 				E760584820FDACED0027B500 /* Assets.xcassets */,
 				E760584A20FDACED0027B500 /* LaunchScreen.storyboard */,
 				E760584D20FDACED0027B500 /* Info.plist */,
@@ -142,7 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E702ADB221103D5500C34D71 /* MHViewController.m in Sources */,
 				E760584420FDACED0027B500 /* ViewController.m in Sources */,
+				C260EC66211634BD004D88D5 /* ACviewcontroller.m in Sources */,
+				C2196CAB2116410500B7D220 /* ACTableViewCell.m in Sources */,
+				C260EC5E211590C1004D88D5 /* CTviewcontroller.m in Sources */,
+				C260EC622115918E004D88D5 /* Hviewcontroller.m in Sources */,
+				E707F867210EF3C3007109EF /* TextViewUI.m in Sources */,
+				E702ADB5211040A800C34D71 /* BIviewcontroller.m in Sources */,
 				E760584F20FDACED0027B500 /* main.m in Sources */,
 				E760584120FDACED0027B500 /* AppDelegate.m in Sources */,
 			);
